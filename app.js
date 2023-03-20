@@ -32,4 +32,4 @@ function numeroInvertido($a , $b){
     console.log( "nuevo valor de VB :" + VC)
 }
 
-numeroInvertido(80 , 90)dsd
+numeroInvertido(80 , 90)
