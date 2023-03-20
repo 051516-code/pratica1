@@ -1,0 +1,27 @@
+02) Escreva um algoritmo que leia dois números que deverão ser colocados, respectivamente, nas variáveis VA e VB. O algoritmo deve, então, trocar os valores de VA por VB e vice-versa e mostrar o conteúdo destas variáveis.
+
+
+
+
+algoritmo "numero_invertido";
+
+
+inicio
+    var 
+        VA,VB,VC = real;
+
+        escreva("digite o primeiro valor");
+        leia(VA);
+        escreva("digite o segundo valor");
+        leia(VB);
+
+        VC <- VA;
+        
+        escreval("o valor de VA e:" , VA);
+        VA <- VB
+        escreval("novo valor de VA e:" , VA);
+        escreval("valor de VB e:" , VB);
+        escreva("novo valor de VB e:" , VC);
+
+finalgoritmo
+
